@@ -24,8 +24,8 @@ pip install -r requirements.txt
 ## 🚀 Usage
 1. Clone the repository
     ```shell
-    git clone https://github.com/rustiiiiiii/TumorTrace_Infosys_Internship_Oct2024.git
-    cd TumorTrace_Infosys_Internship_Oct2024
+    git clone https://github.com/Amit-712/Breast-Cancer-Prediction.git
+    cd Breast-Cancer-Prediction
     ```
 
 2. Place your MRI dataset in the specified directory.
@@ -48,18 +48,15 @@ The preprocessing steps included:
 - Applying class weights to address imbalanced data.
 
 ## 🏗️ Model Architecture
-The model employs a Convolutional Neural Network (CNN) architecture that is tailored to effectively extract features from MRI images. We tested several models, including VGG16, ResNet18, and ResNet50.
+The model employs a Convolutional Neural Network (CNN) architecture that is tailored to effectively extract features from MRI images. We tested model VGG16.
 
 ### VGG16:
 - Pre-trained VGG16 model fine-tuned for binary classification (benign vs. malignant).
 
-### ResNet18 and ResNet50:
-- Deeper architectures with residual learning for improved training on complex datasets.
-
 ## 🏋️ Training
 We trained our models using the following setup:
 - best_accuracy = 0
-- total_epochs = 50
+- total_epochs = 25
 - momentum = 0.9
 - no_cuda = False
 - log_interval = 10
@@ -78,14 +75,8 @@ We evaluated our models using the following metrics:
 ## 📈 Results and Impact
 ### Model Performance:
 - **VGG16**:
-    - Accuracy: 81.70%
-    - AUC: 0.8772
-- **ResNet18**:
-    - Accuracy: 80.91%
-    - AUC: 0.8859
-- **ResNet50**:
-    - Accuracy: 80.43%
-    - AUC: .8742
+    - Accuracy: 80.11%
+    - AUC: 0.8660
 
 ## 🔮 Future Work
 - **Data Augmentation and Enrichment**: Incorporating more diverse and larger datasets.
