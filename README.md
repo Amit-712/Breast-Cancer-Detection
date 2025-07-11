@@ -24,8 +24,8 @@ pip install -r requirements.txt
 ## 🚀 Usage
 1. Clone the repository
     ```shell
-    git clone https://github.com/Amit-712/Breast-Cancer-Prediction.git
-    cd Breast-Cancer-Prediction
+    git clone https://github.com/Amit-712/Breast-Cancer-Detection.git
+    cd Breast-Cancer-Detection
     ```
 
 2. Place your MRI dataset in the specified directory.
