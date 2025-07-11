@@ -4,15 +4,15 @@
 The **Tumor Trace** project is focused on creating an AI model that detects breast cancer through MRI images. By utilizing deep learning methods, the aim is to deliver precise predictions that can aid radiologists in making early diagnoses.
 
 ## 📑 Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Evaluation Metrics](#evaluation-metrics)
-- [Results and Impact](#results-and-impact)
-- [Future Work](#future-work)
-- [License](#license)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Data Collection and Preprocessing](#Data-collection-and-preprocessing)
+- [Model Architecture](#Model-architecture)
+- [Training](#Training)
+- [Evaluation Metrics](#Evaluation-metrics)
+- [Results and Impact](#Results-and-impact)
+- [Future Work](#Future-work)
+- [License](#License)
 
 ## ⚙️ Installation
 To get this project up and running, one has to install the required libraries. It can be done by running the following command
